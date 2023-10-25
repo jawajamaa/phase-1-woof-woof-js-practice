@@ -7,11 +7,22 @@
 }
 
 #good-dog-filter {
+  cursor: pointer;
   margin-top: 1vh;
   width: 35vw;
   font-size: 1em;
   height: 5vh;
   border-radius: 3em;
+}
+
+#bad-dog-filter {
+  cursor: pointer;
+  margin-top: 1vh;
+  width: 35vw;
+  font-size: 1em;
+  height: 5vh;
+  border-radius: 3em; 
+  background-color: red;
 }
 
 #dog-bar {
@@ -23,6 +34,7 @@
 }
 
 #dog-bar span {
+  cursor: pointer;
   height: 80%;
   width: 8vw;
   display: flex;
